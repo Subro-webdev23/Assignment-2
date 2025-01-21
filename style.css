@@ -263,4 +263,19 @@ nav ul li{
     .btn{
         width: 100%;
     }
+    .curriculum-section{
+        padding: 40px 0;
+    }
+    .curriculum{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: auto;
+    }
+    .arrow{
+        display: none;
+    }
 }
