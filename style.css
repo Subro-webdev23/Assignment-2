@@ -120,7 +120,10 @@ nav ul li{
 .nav-button:hover{
     background-color: var(--Orange-2-color);
 }
-
+/*  Banner Section Css */
+.banner-section{
+    background-color: var(--body-color);
+}
 .hero{
     align-items: center;
     justify-content: space-between;
@@ -151,6 +154,7 @@ nav ul li{
 
 .curriculum-section{
     padding: 60px 0;
+    background-color: var(--body-color);
 }
 .curriculum{
     display: flex;flex-direction: column;
@@ -238,6 +242,9 @@ nav ul li{
         max-width: 45px;
         height: 45px;
     }
+    .banner-section{
+        padding: 5px;
+    }
     .hero{
         flex-direction: column-reverse;
         align-items: center;
@@ -264,7 +271,7 @@ nav ul li{
         width: 100%;
     }
     .curriculum-section{
-        padding: 40px 0;
+        padding: 40px 5px;
     }
     .curriculum{
         display: flex;
@@ -273,7 +280,7 @@ nav ul li{
     }
     .cards{
         flex-direction: column;
-        gap: auto;
+        gap: 12px;
     }
     .arrow{
         display: none;
