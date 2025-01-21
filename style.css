@@ -124,6 +124,11 @@ nav ul li{
 .banner-section{
     background-color: var(--body-color);
 }
+.banner-images img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 .hero{
     align-items: center;
     justify-content: space-between;
@@ -320,13 +325,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
 @media screen and (max-width:580px) {
     header{
         padding: 5px 5px 0 5px;
@@ -385,7 +383,11 @@ footer{
     }
     .banner-images{
         width: 100%;
-        height: auto;
+        text-align: center;
+    }
+    .banner-images img{
+        max-width: 80%;
+
     }
     .btn{
         width: 100%;
