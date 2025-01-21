@@ -365,7 +365,7 @@ nav ul li{
     }
     .article{
         width: 100%;
-        max-width: 195px;
+        max-width: 215px;
     }
     .articles .small{
         display: flex;
@@ -375,5 +375,6 @@ nav ul li{
     }
     .date-btn-2{
         width: auto;
+        padding: 5px 10px;
     }
 }
