@@ -72,6 +72,9 @@ a{
 .flex{
     display: flex;
 }
+.aline-item-center{
+    align-items: center;
+}
 .gap{
     gap: 20px;
 }
@@ -144,9 +147,11 @@ nav ul li{
     display: none;
 }
 
+/* curriculum-section related css */
 
-
-
+.curriculum-section{
+    padding: 60px 0;
+}
 
 
 
@@ -179,7 +184,7 @@ nav ul li{
         height: 30px;
     }
     .head nav,
-    button{
+    .head button{
         display: none;
     }
     .logo img{
@@ -208,5 +213,8 @@ nav ul li{
     .banner-images{
         width: 100%;
         height: auto;
+    }
+    .btn{
+        width: 100%;
     }
 }
