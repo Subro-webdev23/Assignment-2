@@ -283,6 +283,50 @@ nav ul li{
 .article img {
     border-radius: 24px 24px 0 0;
 }
+
+footer{
+    padding: 100px 0;
+    background-color: var(--Sky-blue-color);
+    color: var(--white-color);
+}
+.footer-logo img{
+    width: 100%;
+    max-width: 83px;
+    height: 83px;
+    margin-right: 12px;
+}
+.school{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.school p{
+    width: 400px;
+}
+.foot{
+    justify-content: space-between;
+
+}
+.school-about ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.school-about h4{
+    margin-bottom: 24px;
+}
+.social-media h4{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:580px) {
     header{
         padding: 5px 5px 0 5px;
@@ -377,5 +421,11 @@ nav ul li{
     .date-btn-2{
         width: auto;
         padding: 5px 10px;
+    }
+    .foot{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        padding: 20px 0;
     }
 }
